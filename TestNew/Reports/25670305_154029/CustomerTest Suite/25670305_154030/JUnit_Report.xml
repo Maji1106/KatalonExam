@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CustomerTest Suite" time="41.268" tests="9" failures="2" errors="1">
+   <testsuite name="CustomerTest Suite" tests="9" failures="2" errors="1" time="41.268" skipped="0" timestamp="05-03-2024T15:40:35" hostname="Administrator - 10.53.16.177" id="Test Suites/CustomerTest Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030\\Photo/number1.png, C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030\\1709628044366.png, C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030\\1709628048881.png, C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030\\Photo/number2.png, C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030\\Photo/number3.png, C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030\\Photo/number4.png, C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030\\Photo/number5.png, C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030\\Photo/number8.png"/>
+         <property name="hostName" value="Administrator - 10.53.16.177"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="10.53.16.177"/>
+         <property name="sessionId" value="7a6c0919b0132bde89dd8d3408d489f5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test_input1" time="4.638" classname="Test Cases/Test_input1" status="PASSED">
+         <system-out><![CDATA[05-03-2024T15:40:35 - [TEST_CASE][PASSED] - Test Cases/Test_input1: Test Cases/Test_input1
+
+05-03-2024T15:40:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T15:40:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T15:40:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T15:40:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T15:40:37 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/customerphp/customer.php"): Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:40:37 - [MESSAGE][PASSED] - Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:40:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "johnjohn"): Text 'johnjohn' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:40:37 - [MESSAGE][PASSED] - Text 'johnjohn' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:40:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "canonc"): Text 'canonc' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:40:38 - [MESSAGE][PASSED] - Text 'canonc' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:40:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Age_age"), "2"): Text '2' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:40:39 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:40:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:40:39 - [TEST_STEP][PASSED] - verifyTextPresent("First Name: johnjohn", false): Text 'First Name: johnjohn' is present on page 
+
+05-03-2024T15:40:39 - [MESSAGE][PASSED] - Text 'First Name: johnjohn' is present on page 
+
+05-03-2024T15:40:39 - [TEST_STEP][PASSED] - takeFullPageScreenshot("Photo/number1.png"): Taking screenshot successfully
+
+05-03-2024T15:40:40 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T15:40:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030\\Photo/number1.png]]
+
+05-03-2024T15:40:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T15:40:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_input10" time="4.27" classname="Test Cases/Test_input10" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test_input10 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'First Name: mary' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)&#xa;	at Test_input10.run(Test_input10:35)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'First Name: mary' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[05-03-2024T15:40:40 - [TEST_CASE][FAILED] - Test Cases/Test_input10: Test Cases/Test_input10 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'First Name: mary' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Test_input10.run(Test_input10:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'First Name: mary' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+05-03-2024T15:40:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T15:40:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T15:40:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T15:40:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T15:40:40 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/customerphp/customer.php"): Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:40:41 - [MESSAGE][PASSED] - Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:40:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b"), "Ms.", true): All options with value 'Ms.' are selected in object 'Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b'  using regular expression
+
+05-03-2024T15:40:42 - [MESSAGE][PASSED] - All options with value 'Ms.' are selected in object 'Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b'  using regular expression
+
+05-03-2024T15:40:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "johnjohn"): Text 'johnjohn' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:40:42 - [MESSAGE][PASSED] - Text 'johnjohn' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:40:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "canoncan"): Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:40:43 - [MESSAGE][PASSED] - Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:40:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Customer Form/input_Age_age"), "0"): Text '0' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:40:43 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:40:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:40:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:40:44 - [TEST_STEP][FAILED] - verifyTextPresent("First Name: mary", false): Unable to verify text 'First Name: mary' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'First Name: mary' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Test_input10.run(Test_input10:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'First Name: mary' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+05-03-2024T15:40:44 - [MESSAGE][FAILED] - Text 'First Name: mary' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'First Name: mary' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Test_input10.run(Test_input10:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+05-03-2024T15:40:44 - [MESSAGE][FAILED] - Unable to verify text 'First Name: mary' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'First Name: mary' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Test_input10.run(Test_input10:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'First Name: mary' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030\\1709628044366.png]]]]></system-out>
+         <system-err><![CDATA[05-03-2024T15:40:40 - [TEST_CASE][FAILED] - Test Cases/Test_input10: Test Cases/Test_input10 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'First Name: mary' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Test_input10.run(Test_input10:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'First Name: mary' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_input11" time="4.552" classname="Test Cases/Test_input11" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test_input11 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'First Name: johnjohn' is present &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)&#xa;	at Test_input11.run(Test_input11:35)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'First Name: johnjohn' is not present on page &#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[05-03-2024T15:40:44 - [TEST_CASE][FAILED] - Test Cases/Test_input11: Test Cases/Test_input11 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'First Name: johnjohn' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Test_input11.run(Test_input11:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'First Name: johnjohn' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+05-03-2024T15:40:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T15:40:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-03-2024T15:40:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T15:40:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T15:40:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T15:40:45 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/customerphp/customer.php"): Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:40:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:40:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b"), "Ms.", true): All options with value 'Ms.' are selected in object 'Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b'  using regular expression
+
+05-03-2024T15:40:46 - [MESSAGE][PASSED] - All options with value 'Ms.' are selected in object 'Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b'  using regular expression
+
+05-03-2024T15:40:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "johnjohn"): Text 'johnjohn' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:40:47 - [MESSAGE][PASSED] - Text 'johnjohn' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:40:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "canoncan"): Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:40:47 - [MESSAGE][PASSED] - Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:40:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Age_age"), "151"): Text '151' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:40:48 - [MESSAGE][PASSED] - Text '151' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:40:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:40:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:40:48 - [TEST_STEP][FAILED] - verifyTextPresent("First Name: johnjohn", false): Unable to verify text 'First Name: johnjohn' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'First Name: johnjohn' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Test_input11.run(Test_input11:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'First Name: johnjohn' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+05-03-2024T15:40:48 - [MESSAGE][FAILED] - Text 'First Name: johnjohn' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'First Name: johnjohn' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Test_input11.run(Test_input11:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+05-03-2024T15:40:49 - [MESSAGE][FAILED] - Unable to verify text 'First Name: johnjohn' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'First Name: johnjohn' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Test_input11.run(Test_input11:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'First Name: johnjohn' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030\\1709628048881.png]]]]></system-out>
+         <system-err><![CDATA[05-03-2024T15:40:44 - [TEST_CASE][FAILED] - Test Cases/Test_input11: Test Cases/Test_input11 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'First Name: johnjohn' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Test_input11.run(Test_input11:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'First Name: johnjohn' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_input2" time="5.087" classname="Test Cases/Test_input2" status="PASSED">
+         <system-out><![CDATA[05-03-2024T15:40:49 - [TEST_CASE][PASSED] - Test Cases/Test_input2: Test Cases/Test_input2
+
+05-03-2024T15:40:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T15:40:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-03-2024T15:40:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T15:40:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T15:40:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T15:40:49 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/customerphp/customer.php"): Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:40:50 - [MESSAGE][PASSED] - Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:40:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b"), "Ms.", true): All options with value 'Ms.' are selected in object 'Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b'  using regular expression
+
+05-03-2024T15:40:51 - [MESSAGE][PASSED] - All options with value 'Ms.' are selected in object 'Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b'  using regular expression
+
+05-03-2024T15:40:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "Johnj"): Text 'Johnj' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:40:51 - [MESSAGE][PASSED] - Text 'Johnj' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:40:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "canoncanoncano"): Text 'canoncanoncano' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:40:52 - [MESSAGE][PASSED] - Text 'canoncanoncano' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:40:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Age_age"), "149"): Text '149' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:40:52 - [MESSAGE][PASSED] - Text '149' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:40:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:40:53 - [TEST_STEP][PASSED] - verifyTextPresent("First Name: Johnj", false): Text 'First Name: Johnj' is present on page 
+
+05-03-2024T15:40:53 - [MESSAGE][PASSED] - Text 'First Name: Johnj' is present on page 
+
+05-03-2024T15:40:53 - [TEST_STEP][PASSED] - takeFullPageScreenshot("Photo/number2.png"): Taking screenshot successfully
+
+05-03-2024T15:40:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T15:40:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030\\Photo/number2.png]]
+
+05-03-2024T15:40:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T15:40:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_input3" time="4.521" classname="Test Cases/Test_input3" status="PASSED">
+         <system-out><![CDATA[05-03-2024T15:40:54 - [TEST_CASE][PASSED] - Test Cases/Test_input3: Test Cases/Test_input3
+
+05-03-2024T15:40:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T15:40:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T15:40:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T15:40:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T15:40:54 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/customerphp/customer.php"): Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:40:54 - [MESSAGE][PASSED] - Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:40:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b"), "Ms.", true): All options with value 'Ms.' are selected in object 'Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b'  using regular expression
+
+05-03-2024T15:40:55 - [MESSAGE][PASSED] - All options with value 'Ms.' are selected in object 'Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b'  using regular expression
+
+05-03-2024T15:40:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "Johnj"): Text 'Johnj' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:40:56 - [MESSAGE][PASSED] - Text 'Johnj' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:40:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "canoncanoncano"): Text 'canoncanoncano' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:40:57 - [MESSAGE][PASSED] - Text 'canoncanoncano' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:40:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Age_age"), "150"): Text '150' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:40:57 - [MESSAGE][PASSED] - Text '150' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:40:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:40:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:40:57 - [TEST_STEP][PASSED] - verifyTextNotPresent("First Name: johnjo", false): Text 'First Name: johnjo' is not present on page
+
+05-03-2024T15:40:58 - [MESSAGE][PASSED] - Text 'First Name: johnjo' is not present on page
+
+05-03-2024T15:40:58 - [TEST_STEP][PASSED] - takeFullPageScreenshot("Photo/number3.png"): Taking screenshot successfully
+
+05-03-2024T15:40:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T15:40:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030\\Photo/number3.png]]
+
+05-03-2024T15:40:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T15:40:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_input4" time="4.493" classname="Test Cases/Test_input4" status="PASSED">
+         <system-out><![CDATA[05-03-2024T15:40:58 - [TEST_CASE][PASSED] - Test Cases/Test_input4: Test Cases/Test_input4
+
+05-03-2024T15:40:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T15:40:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T15:40:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T15:40:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T15:40:59 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/customerphp/customer.php"): Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:40:59 - [MESSAGE][PASSED] - Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:40:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b"), "Ms.", true): All options with value 'Ms.' are selected in object 'Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b'  using regular expression
+
+05-03-2024T15:41:00 - [MESSAGE][PASSED] - All options with value 'Ms.' are selected in object 'Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b'  using regular expression
+
+05-03-2024T15:41:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "johnjohnjohnjo"): Text 'johnjohnjohnjo' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:41:01 - [MESSAGE][PASSED] - Text 'johnjohnjohnjo' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:41:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "canoncan"): Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:41:01 - [MESSAGE][PASSED] - Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:41:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Age_age"), "75"): Text '75' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:41:02 - [MESSAGE][PASSED] - Text '75' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:41:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:41:02 - [TEST_STEP][PASSED] - verifyTextPresent("First Name: johnjohnjohnjo", false): Text 'First Name: johnjohnjohnjo' is present on page 
+
+05-03-2024T15:41:02 - [MESSAGE][PASSED] - Text 'First Name: johnjohnjohnjo' is present on page 
+
+05-03-2024T15:41:02 - [TEST_STEP][PASSED] - takeFullPageScreenshot("Photo/number4.png"): Taking screenshot successfully
+
+05-03-2024T15:41:03 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T15:41:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030\\Photo/number4.png]]
+
+05-03-2024T15:41:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T15:41:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_input5" time="4.433" classname="Test Cases/Test_input5" status="PASSED">
+         <system-out><![CDATA[05-03-2024T15:41:03 - [TEST_CASE][PASSED] - Test Cases/Test_input5: Test Cases/Test_input5
+
+05-03-2024T15:41:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T15:41:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T15:41:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T15:41:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T15:41:03 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/customerphp/customer.php"): Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:41:03 - [MESSAGE][PASSED] - Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:41:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b"), "Ms.", true): All options with value 'Ms.' are selected in object 'Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b'  using regular expression
+
+05-03-2024T15:41:04 - [MESSAGE][PASSED] - All options with value 'Ms.' are selected in object 'Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b'  using regular expression
+
+05-03-2024T15:41:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "johnjohnjohnjoh"): Text 'johnjohnjohnjoh' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:41:05 - [MESSAGE][PASSED] - Text 'johnjohnjohnjoh' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:41:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "canoncan"): Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:41:06 - [MESSAGE][PASSED] - Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:41:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Age_age"), "75"): Text '75' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:41:06 - [MESSAGE][PASSED] - Text '75' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:41:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:41:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:41:06 - [TEST_STEP][PASSED] - verifyTextPresent("First Name: johnjohnjohnjoh", false): Text 'First Name: johnjohnjohnjoh' is present on page 
+
+05-03-2024T15:41:07 - [MESSAGE][PASSED] - Text 'First Name: johnjohnjohnjoh' is present on page 
+
+05-03-2024T15:41:07 - [TEST_STEP][PASSED] - takeFullPageScreenshot("Photo/number5.png"): Taking screenshot successfully
+
+05-03-2024T15:41:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T15:41:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030\\Photo/number5.png]]
+
+05-03-2024T15:41:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T15:41:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_input6" time="4.425" classname="Test Cases/Test_input6" status="ERROR">
+         <error type="ERROR" message="Test Cases/Test_input6 FAILED.&#xa;Reason:&#xa;groovy.lang.MissingPropertyException: No such property: Photo for class: Script1709625582232&#xa;	at Test_input6.run(Test_input6:39)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[05-03-2024T15:41:07 - [TEST_CASE][ERROR] - Test Cases/Test_input6: Test Cases/Test_input6 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Photo for class: Script1709625582232
+	at Test_input6.run(Test_input6:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+05-03-2024T15:41:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T15:41:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T15:41:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T15:41:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T15:41:08 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/customerphp/customer.php"): Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:41:08 - [MESSAGE][PASSED] - Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:41:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName")): Object: 'Object Repository/Page_Customer Form/input_First Name_firstName' is clicked on
+
+05-03-2024T15:41:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/input_First Name_firstName' is clicked on
+
+05-03-2024T15:41:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b"), "Ms.", true): All options with value 'Ms.' are selected in object 'Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b'  using regular expression
+
+05-03-2024T15:41:09 - [MESSAGE][PASSED] - All options with value 'Ms.' are selected in object 'Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b'  using regular expression
+
+05-03-2024T15:41:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "johnjohnjohnjoh"): Text 'johnjohnjohnjoh' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:41:10 - [MESSAGE][PASSED] - Text 'johnjohnjohnjoh' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:41:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "canoncan"): Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:41:10 - [MESSAGE][PASSED] - Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:41:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Age_age"), "75"): Text '75' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:41:11 - [MESSAGE][PASSED] - Text '75' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:41:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:41:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:41:11 - [TEST_STEP][PASSED] - verifyTextPresent("First Name: johnjohnjohnjoh", false): Text 'First Name: johnjohnjohnjoh' is present on page 
+
+05-03-2024T15:41:12 - [MESSAGE][PASSED] - Text 'First Name: johnjohnjohnjoh' is present on page 
+
+05-03-2024T15:41:12 - [TEST_STEP][ERROR] - takeFullPageScreenshot(Photo / png): Test Cases/Test_input6 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Photo for class: Script1709625582232
+	at Test_input6.run(Test_input6:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+05-03-2024T15:41:12 - [MESSAGE][ERROR] - Test Cases/Test_input6 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Photo for class: Script1709625582232
+	at Test_input6.run(Test_input6:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[05-03-2024T15:41:07 - [TEST_CASE][ERROR] - Test Cases/Test_input6: Test Cases/Test_input6 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Photo for class: Script1709625582232
+	at Test_input6.run(Test_input6:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_input8" time="4.702" classname="Test Cases/Test_input8" status="PASSED">
+         <system-out><![CDATA[05-03-2024T15:41:12 - [TEST_CASE][PASSED] - Test Cases/Test_input8: Test Cases/Test_input8
+
+05-03-2024T15:41:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T15:41:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-03-2024T15:41:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T15:41:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T15:41:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T15:41:12 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/customerphp/customer.php"): Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:41:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost/customerphp/customer.php' successfully
+
+05-03-2024T15:41:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b"), "Ms.", true): All options with value 'Ms.' are selected in object 'Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b'  using regular expression
+
+05-03-2024T15:41:14 - [MESSAGE][PASSED] - All options with value 'Ms.' are selected in object 'Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b'  using regular expression
+
+05-03-2024T15:41:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "johnjohn"): Text 'johnjohn' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:41:14 - [MESSAGE][PASSED] - Text 'johnjohn' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T15:41:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "canon"): Text 'canon' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:41:15 - [MESSAGE][PASSED] - Text 'canon' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T15:41:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Age_age"), "75"): Text '75' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:41:15 - [MESSAGE][PASSED] - Text '75' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T15:41:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T15:41:16 - [TEST_STEP][PASSED] - verifyTextPresent("First Name: johnjohn", false): Text 'First Name: johnjohn' is present on page 
+
+05-03-2024T15:41:16 - [MESSAGE][PASSED] - Text 'First Name: johnjohn' is present on page 
+
+05-03-2024T15:41:16 - [TEST_STEP][PASSED] - takeFullPageScreenshot("Photo/number8.png"): Taking screenshot successfully
+
+05-03-2024T15:41:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T15:41:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\TestNew\\Reports\\25670305_154029\\CustomerTest Suite\\25670305_154030\\Photo/number8.png]]
+
+05-03-2024T15:41:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T15:41:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-03-2024T15:40:35 - [TEST_SUITE][FAILED] - CustomerTest Suite: Test Cases/Test_input10 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'First Name: mary' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Test_input10.run(Test_input10:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'First Name: mary' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[05-03-2024T15:40:35 - [TEST_SUITE][FAILED] - CustomerTest Suite: Test Cases/Test_input10 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'First Name: mary' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1762)
+	at Test_input10.run(Test_input10:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709628030712.run(TempTestSuite1709628030712.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'First Name: mary' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,105 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CustomerTest Suite,Chrome 122.0.0.0,,,05-03-2024 15:40:35,05-03-2024 15:41:16,41.268s,ERROR
+,,,,,,,
+Test Cases/Test_input1,Chrome 122.0.0.0,,,05-03-2024 15:40:35,05-03-2024 15:40:40,4.638s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 15:40:35,05-03-2024 15:40:37,1.268s,PASSED
+"navigateToUrl(""http://localhost/customerphp/customer.php"")",Chrome 122.0.0.0,,,05-03-2024 15:40:37,05-03-2024 15:40:37,0.169s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_First Name_firstName""), ""johnjohn"")",Chrome 122.0.0.0,,,05-03-2024 15:40:37,05-03-2024 15:40:37,0.771s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_Last Name_lastName""), ""canonc"")",Chrome 122.0.0.0,,,05-03-2024 15:40:37,05-03-2024 15:40:38,0.594s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_Age_age""), ""2"")",Chrome 122.0.0.0,,,05-03-2024 15:40:38,05-03-2024 15:40:39,0.542s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Form/button_Submit""))",Chrome 122.0.0.0,,,05-03-2024 15:40:39,05-03-2024 15:40:39,0.327s,PASSED
+"verifyTextPresent(""First Name: johnjohn"", false)",Chrome 122.0.0.0,,,05-03-2024 15:40:39,05-03-2024 15:40:39,0.295s,PASSED
+"takeFullPageScreenshot(""Photo/number1.png"")",Chrome 122.0.0.0,,,05-03-2024 15:40:39,05-03-2024 15:40:40,0.385s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 15:40:40,05-03-2024 15:40:40,0.105s,PASSED
+,,,,,,,
+Test Cases/Test_input10,Chrome 122.0.0.0,,,05-03-2024 15:40:40,05-03-2024 15:40:44,4.270s,FAILED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 15:40:40,05-03-2024 15:40:40,0.610s,PASSED
+"navigateToUrl(""http://localhost/customerphp/customer.php"")",Chrome 122.0.0.0,,,05-03-2024 15:40:40,05-03-2024 15:40:41,0.132s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b""), ""Ms."", true)",Chrome 122.0.0.0,,,05-03-2024 15:40:41,05-03-2024 15:40:42,1.037s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_First Name_firstName""), ""johnjohn"")",Chrome 122.0.0.0,,,05-03-2024 15:40:42,05-03-2024 15:40:42,0.580s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_Last Name_lastName""), ""canoncan"")",Chrome 122.0.0.0,,,05-03-2024 15:40:42,05-03-2024 15:40:43,0.559s,PASSED
+"setText(findTestObject(""Page_Customer Form/input_Age_age""), ""0"")",Chrome 122.0.0.0,,,05-03-2024 15:40:43,05-03-2024 15:40:43,0.586s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Form/button_Submit""))",Chrome 122.0.0.0,,,05-03-2024 15:40:43,05-03-2024 15:40:44,0.305s,PASSED
+"verifyTextPresent(""First Name: mary"", false)",Chrome 122.0.0.0,,,05-03-2024 15:40:44,05-03-2024 15:40:44,0.405s,FAILED
+,,,,,,,
+Test Cases/Test_input11,Chrome 122.0.0.0,,,05-03-2024 15:40:44,05-03-2024 15:40:49,4.552s,FAILED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 15:40:44,05-03-2024 15:40:45,0.741s,PASSED
+"navigateToUrl(""http://localhost/customerphp/customer.php"")",Chrome 122.0.0.0,,,05-03-2024 15:40:45,05-03-2024 15:40:45,0.129s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b""), ""Ms."", true)",Chrome 122.0.0.0,,,05-03-2024 15:40:45,05-03-2024 15:40:46,1.149s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_First Name_firstName""), ""johnjohn"")",Chrome 122.0.0.0,,,05-03-2024 15:40:46,05-03-2024 15:40:47,0.584s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_Last Name_lastName""), ""canoncan"")",Chrome 122.0.0.0,,,05-03-2024 15:40:47,05-03-2024 15:40:47,0.590s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_Age_age""), ""151"")",Chrome 122.0.0.0,,,05-03-2024 15:40:47,05-03-2024 15:40:48,0.576s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Form/button_Submit""))",Chrome 122.0.0.0,,,05-03-2024 15:40:48,05-03-2024 15:40:48,0.300s,PASSED
+"verifyTextPresent(""First Name: johnjohn"", false)",Chrome 122.0.0.0,,,05-03-2024 15:40:48,05-03-2024 15:40:49,0.426s,FAILED
+,,,,,,,
+Test Cases/Test_input2,Chrome 122.0.0.0,,,05-03-2024 15:40:49,05-03-2024 15:40:54,5.087s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 15:40:49,05-03-2024 15:40:49,0.820s,PASSED
+"navigateToUrl(""http://localhost/customerphp/customer.php"")",Chrome 122.0.0.0,,,05-03-2024 15:40:49,05-03-2024 15:40:50,0.143s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b""), ""Ms."", true)",Chrome 122.0.0.0,,,05-03-2024 15:40:50,05-03-2024 15:40:51,1.127s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_First Name_firstName""), ""Johnj"")",Chrome 122.0.0.0,,,05-03-2024 15:40:51,05-03-2024 15:40:51,0.582s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_Last Name_lastName""), ""canoncanoncano"")",Chrome 122.0.0.0,,,05-03-2024 15:40:51,05-03-2024 15:40:52,0.564s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_Age_age""), ""149"")",Chrome 122.0.0.0,,,05-03-2024 15:40:52,05-03-2024 15:40:52,0.555s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Form/button_Submit""))",Chrome 122.0.0.0,,,05-03-2024 15:40:52,05-03-2024 15:40:53,0.315s,PASSED
+"verifyTextPresent(""First Name: Johnj"", false)",Chrome 122.0.0.0,,,05-03-2024 15:40:53,05-03-2024 15:40:53,0.279s,PASSED
+"takeFullPageScreenshot(""Photo/number2.png"")",Chrome 122.0.0.0,,,05-03-2024 15:40:53,05-03-2024 15:40:53,0.320s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 15:40:53,05-03-2024 15:40:54,0.302s,PASSED
+,,,,,,,
+Test Cases/Test_input3,Chrome 122.0.0.0,,,05-03-2024 15:40:54,05-03-2024 15:40:58,4.521s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 15:40:54,05-03-2024 15:40:54,0.576s,PASSED
+"navigateToUrl(""http://localhost/customerphp/customer.php"")",Chrome 122.0.0.0,,,05-03-2024 15:40:54,05-03-2024 15:40:54,0.093s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b""), ""Ms."", true)",Chrome 122.0.0.0,,,05-03-2024 15:40:54,05-03-2024 15:40:55,1.084s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_First Name_firstName""), ""Johnj"")",Chrome 122.0.0.0,,,05-03-2024 15:40:55,05-03-2024 15:40:56,0.576s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_Last Name_lastName""), ""canoncanoncano"")",Chrome 122.0.0.0,,,05-03-2024 15:40:56,05-03-2024 15:40:57,0.564s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_Age_age""), ""150"")",Chrome 122.0.0.0,,,05-03-2024 15:40:57,05-03-2024 15:40:57,0.553s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Form/button_Submit""))",Chrome 122.0.0.0,,,05-03-2024 15:40:57,05-03-2024 15:40:57,0.298s,PASSED
+"verifyTextNotPresent(""First Name: johnjo"", false)",Chrome 122.0.0.0,,,05-03-2024 15:40:57,05-03-2024 15:40:58,0.280s,PASSED
+"takeFullPageScreenshot(""Photo/number3.png"")",Chrome 122.0.0.0,,,05-03-2024 15:40:58,05-03-2024 15:40:58,0.284s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 15:40:58,05-03-2024 15:40:58,0.155s,PASSED
+,,,,,,,
+Test Cases/Test_input4,Chrome 122.0.0.0,,,05-03-2024 15:40:58,05-03-2024 15:41:03,4.493s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 15:40:58,05-03-2024 15:40:59,0.622s,PASSED
+"navigateToUrl(""http://localhost/customerphp/customer.php"")",Chrome 122.0.0.0,,,05-03-2024 15:40:59,05-03-2024 15:40:59,0.133s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b""), ""Ms."", true)",Chrome 122.0.0.0,,,05-03-2024 15:40:59,05-03-2024 15:41:00,1.075s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_First Name_firstName""), ""johnjohnjohnjo"")",Chrome 122.0.0.0,,,05-03-2024 15:41:00,05-03-2024 15:41:01,0.573s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_Last Name_lastName""), ""canoncan"")",Chrome 122.0.0.0,,,05-03-2024 15:41:01,05-03-2024 15:41:01,0.543s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_Age_age""), ""75"")",Chrome 122.0.0.0,,,05-03-2024 15:41:01,05-03-2024 15:41:02,0.527s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Form/button_Submit""))",Chrome 122.0.0.0,,,05-03-2024 15:41:02,05-03-2024 15:41:02,0.291s,PASSED
+"verifyTextPresent(""First Name: johnjohnjohnjo"", false)",Chrome 122.0.0.0,,,05-03-2024 15:41:02,05-03-2024 15:41:02,0.264s,PASSED
+"takeFullPageScreenshot(""Photo/number4.png"")",Chrome 122.0.0.0,,,05-03-2024 15:41:02,05-03-2024 15:41:03,0.290s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 15:41:03,05-03-2024 15:41:03,0.130s,PASSED
+,,,,,,,
+Test Cases/Test_input5,Chrome 122.0.0.0,,,05-03-2024 15:41:03,05-03-2024 15:41:07,4.433s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 15:41:03,05-03-2024 15:41:03,0.548s,PASSED
+"navigateToUrl(""http://localhost/customerphp/customer.php"")",Chrome 122.0.0.0,,,05-03-2024 15:41:03,05-03-2024 15:41:03,0.139s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b""), ""Ms."", true)",Chrome 122.0.0.0,,,05-03-2024 15:41:03,05-03-2024 15:41:04,1.070s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_First Name_firstName""), ""johnjohnjohnjoh"")",Chrome 122.0.0.0,,,05-03-2024 15:41:04,05-03-2024 15:41:05,0.570s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_Last Name_lastName""), ""canoncan"")",Chrome 122.0.0.0,,,05-03-2024 15:41:05,05-03-2024 15:41:06,0.560s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_Age_age""), ""75"")",Chrome 122.0.0.0,,,05-03-2024 15:41:06,05-03-2024 15:41:06,0.533s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Form/button_Submit""))",Chrome 122.0.0.0,,,05-03-2024 15:41:06,05-03-2024 15:41:06,0.306s,PASSED
+"verifyTextPresent(""First Name: johnjohnjohnjoh"", false)",Chrome 122.0.0.0,,,05-03-2024 15:41:06,05-03-2024 15:41:07,0.258s,PASSED
+"takeFullPageScreenshot(""Photo/number5.png"")",Chrome 122.0.0.0,,,05-03-2024 15:41:07,05-03-2024 15:41:07,0.281s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 15:41:07,05-03-2024 15:41:07,0.125s,PASSED
+,,,,,,,
+Test Cases/Test_input6,Chrome 122.0.0.0,,,05-03-2024 15:41:07,05-03-2024 15:41:12,4.425s,ERROR
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 15:41:07,05-03-2024 15:41:08,0.526s,PASSED
+"navigateToUrl(""http://localhost/customerphp/customer.php"")",Chrome 122.0.0.0,,,05-03-2024 15:41:08,05-03-2024 15:41:08,0.136s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Form/input_First Name_firstName""))",Chrome 122.0.0.0,,,05-03-2024 15:41:08,05-03-2024 15:41:08,0.535s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b""), ""Ms."", true)",Chrome 122.0.0.0,,,05-03-2024 15:41:08,05-03-2024 15:41:09,0.874s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_First Name_firstName""), ""johnjohnjohnjoh"")",Chrome 122.0.0.0,,,05-03-2024 15:41:09,05-03-2024 15:41:10,0.551s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_Last Name_lastName""), ""canoncan"")",Chrome 122.0.0.0,,,05-03-2024 15:41:10,05-03-2024 15:41:10,0.556s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_Age_age""), ""75"")",Chrome 122.0.0.0,,,05-03-2024 15:41:10,05-03-2024 15:41:11,0.570s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Form/button_Submit""))",Chrome 122.0.0.0,,,05-03-2024 15:41:11,05-03-2024 15:41:11,0.317s,PASSED
+"verifyTextPresent(""First Name: johnjohnjohnjoh"", false)",Chrome 122.0.0.0,,,05-03-2024 15:41:11,05-03-2024 15:41:12,0.282s,PASSED
+takeFullPageScreenshot(Photo / png),Chrome 122.0.0.0,,,05-03-2024 15:41:12,05-03-2024 15:41:12,0.004s,ERROR
+,,,,,,,
+Test Cases/Test_input8,Chrome 122.0.0.0,,,05-03-2024 15:41:12,05-03-2024 15:41:16,4.702s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 15:41:12,05-03-2024 15:41:12,0.793s,PASSED
+"navigateToUrl(""http://localhost/customerphp/customer.php"")",Chrome 122.0.0.0,,,05-03-2024 15:41:12,05-03-2024 15:41:12,0.139s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Customer Form/select_Mr.          Ms.          Mrs.      _e95a9b""), ""Ms."", true)",Chrome 122.0.0.0,,,05-03-2024 15:41:13,05-03-2024 15:41:14,1.089s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_First Name_firstName""), ""johnjohn"")",Chrome 122.0.0.0,,,05-03-2024 15:41:14,05-03-2024 15:41:14,0.565s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_Last Name_lastName""), ""canon"")",Chrome 122.0.0.0,,,05-03-2024 15:41:14,05-03-2024 15:41:15,0.561s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Form/input_Age_age""), ""75"")",Chrome 122.0.0.0,,,05-03-2024 15:41:15,05-03-2024 15:41:15,0.551s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Form/button_Submit""))",Chrome 122.0.0.0,,,05-03-2024 15:41:15,05-03-2024 15:41:16,0.297s,PASSED
+"verifyTextPresent(""First Name: johnjohn"", false)",Chrome 122.0.0.0,,,05-03-2024 15:41:16,05-03-2024 15:41:16,0.262s,PASSED
+"takeFullPageScreenshot(""Photo/number8.png"")",Chrome 122.0.0.0,,,05-03-2024 15:41:16,05-03-2024 15:41:16,0.278s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 15:41:16,05-03-2024 15:41:16,0.123s,PASSED
